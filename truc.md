@@ -4,4 +4,4 @@ title: Truc
 permalink: /truc/
 ---
 
-machin
+machine
