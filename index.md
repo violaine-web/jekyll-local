@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Bienvenu au café Les Voyageurs !
+Bienvenue au café Les Voyageurs !
