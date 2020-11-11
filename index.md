@@ -6,3 +6,5 @@ layout: home
 ---
 
 Bienvenue au café Les Voyageurs !
+
+![logo café](https://cafedesvoyageurs.files.wordpress.com/2017/06/header.jpg?w=600)
