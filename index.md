@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Tesy
+Bienvenu au café Les Voyageurs !
