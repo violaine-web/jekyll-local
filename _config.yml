@@ -30,7 +30,7 @@ github_username:  violaine-web
 # Build settings
 theme: minima
 minima:
-  skin: solarized-dark
+  skin: classic
 plugins:
   - jekyll-feed
 
