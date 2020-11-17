@@ -9,6 +9,8 @@ layout: home
 
 Bienvenue au café Les Voyageurs !
 
+Pour lire la dernière Niouzletter, c'est par [là]({{ '/jekyll-local/2020/11/16/Niouzletter-du-16-novembre-2020.html'}}) !
+
 ![jeu d'automne]({{ '/assets/images/j-investis.png' | relative_url}})
 
 # Pour s'amuser pendant cet automne confiné !
