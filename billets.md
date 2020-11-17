@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Billets
-permalink: /billets/
+title: Niouzletters
+permalink: /niouzletters/
 ---
-[Niouzletter du 09 novembre 2020]({{ '2020/11/09/Niouzletter-du-9-novembre.html' | relative_url}})
+
 
 {% if site.paginate %}
     {% assign posts = paginator.posts %}
@@ -13,7 +13,7 @@ permalink: /billets/
   
 
 {%- if posts.size > 0 -%}
-<h2>Billets</h2>
+
 <ul class="post-list">
     {%- assign date_format = site.minima.date_format | default: "%-d %b, %Y" -%}
     {%- for post in posts -%}
