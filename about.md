@@ -1,18 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: À propos
+permalink: /à propos/
 ---
-plop  
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-truc  
-You **can** find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Avec les Voyageurs, nous assumons volontiers notre côté de doux-rêveurs parce que c’est dans ce lieu privilégié, place de la Mairie à Lanvéoc, dégagés de toute la négativité des pragmatiques fanatiques du status-quo, que nous inventons, par la voie de la moindre résistance, une façon sereine de partager nos espaces, nos idées, nos imaginaires, nos repas, littéralement notre pain (co-pain), notre temps, notre affection …
