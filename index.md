@@ -7,7 +7,7 @@ layout: home
 
 ---
 
-Bienvenue au café Les Voyageurs !
+![logo les Voyageurs]({{ '/assets/images/logo-lesvoyageurs2.jpg' | relative_url}}) 
 
 Pour lire la dernière Niouzletter, c'est par [là]({{ '/jekyll-local/2020/11/16/Niouzletter-du-16-novembre-2020.html'}}) !
 
