@@ -11,7 +11,7 @@ Pour lire la dernière Niouzletter, c'est par [là]({{ '/jekyll-local/2020/11/16
 <div class="container">
   <div class="columns">
     <div class="column col-8 col-mr-auto">
-        <img src="/jekyll-local/assets/images/j-investis.png">
+        <img src="/assets/images/j-investis.png">
         <h1>Pour s'amuser pendant cet automne confiné !</h1>
         <h2>* J’investis dans la nature *</h2>
         <p>Le principe est tout simple :</p>
