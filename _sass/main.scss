@@ -1,7 +1,18 @@
+.wrapper {
+    max-width: calc(950px - (30px));
+}
 
+.program {
+    background: #e14e32; 
+    text-align: center; 
+    color: whitesmoke;
+    border-radius: 10px 10px;
+    padding-top: .4rem;
+}
 
 /*
 img {
     box-shadow: 6px 7px 5px 0px rgb(161, 160, 161);
 }
 */
+
