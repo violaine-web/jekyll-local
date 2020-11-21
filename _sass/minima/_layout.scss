@@ -5,7 +5,7 @@
   border-top: 5px solid $border-color-03;
   border-bottom: 1px solid $border-color-01;
   min-height: $spacing-unit * 1.865;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  line-height: 150px;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -36,6 +36,7 @@
   border: 1px solid $border-color-01;
   border-radius: 5px;
   text-align: right;
+  margin-top: 5em;
 
   .nav-trigger {
     display: none;
