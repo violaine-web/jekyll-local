@@ -15,12 +15,12 @@ permalink: /colonnes/
               <div class="card-subtitle text-gray">Octovembre</div>
             </div>
             <div class="card-body">
-        <div class="modal" id="modal-id">
+                <div class="modal" id="modal-id">
             <a href="#close" class="modal-overlay" aria-label="Close"></a>
                 <div class="modal-container">
                     <div class="modal-header">
                     <a href="#close" class="btn btn-clear float-right" aria-label="Close"></a>
-                    <div class="modal-title h5"><strong>Octovembre</strong></div>
+                    <div class="modal-title h5">Octovembre</div>
                 </div>
                     <div class="modal-body">
                         <div class="content">
@@ -40,6 +40,8 @@ permalink: /colonnes/
                         </div>
                 </div>
 </div>
+
+<!-->
  <strong>P</strong>arce qu’il faut parfois savoir appuyer sur pause.<br>
     <br>
 	<strong>A</strong>rrêter de courir, s’accorder le plaisir de prendre tout son temps. Se reposer, se ressourcer, changer d’horizon, faire le plein d’énergie, d’idées et de projets.<br> 
@@ -52,8 +54,9 @@ permalink: /colonnes/
   </div>
   <div class="card-footer">
     <button class="btn btn-primary"><a href="/assets/images/expo-en-cours/amzer-n-22-octovembre-2020.pdf">Cliquez ici pour lire la suite</a></button>
+  </div><!-->
+  
   </div>
-</div>
     </div>
     <div class="column col-4">
         <div class="card">
