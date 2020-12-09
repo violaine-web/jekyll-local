@@ -1,0 +1,79 @@
+---
+layout: page
+title: Essais
+permalink: /essais/
+---
+<style>
+    /*
+    a.open-modal {
+        color: brown;
+    }
+ 
+    .card-body {
+        text-align: center;
+    }
+    */
+    .card-body a {
+        display: block;
+    }
+</style>
+<script>
+    function openModal(evt) {
+        // récupère le numero du Amzer de l'attribut html data-amzer-id
+        const amzerId = evt.dataset.amzerId
+        const myModal = document.querySelector('#modal-' + amzerId)
+        // On ajoute la classe active à la modal
+        myModal.classList.add('active')
+    }
+
+    function closeModal(evt) {
+        // récupère le numero du Amzer de l'attribut html data-amzer-id
+        const amzerId = evt.dataset.amzerId
+        const myModal = document.querySelector('#modal-' + amzerId)
+        // On ajoute la classe active à la modal
+        myModal.classList.remove('active')
+    }
+</script>
+<div class="container">
+    <div class="columns">
+        {% assign amzers = site.amzers %}
+        {%- if amzers.size > 0 -%}
+        {%- for amzer in amzers -%}
+
+        <div class="column col-4">
+            <div class="card>
+                <div class=" card-image">
+                <img src="/assets/images/expo-en-cours/{{amzer.couverture}}" class="img-responsive">
+            </div>
+            <div class="card-header">
+                <div class="card-title h5">Amzer n°{{amzer.numero}} • {{amzer.titre}}</div>
+                <div class="card-subtitle text-gray">{{amzer.sous_titre}}</div>
+            </div>
+            <div class="card-body">
+                <a href="#" class="open-modal" aria-label="Open" onClick="openModal(this); return false;"
+                    data-amzer-id="{{amzer.numero}}">Découvrir l'édito</a>
+                {%- if amzer.pdf -%}
+                <a href="/assets/images/expo-en-cours/{{amzer.pdf}}">Télécharger le numéro</a>
+                {%- endif -%}
+            </div>
+        </div>
+        <div class="modal" id="modal-{{amzer.numero}}">
+            <a href="#" class="modal-overlay" aria-label="Close" onClick="closeModal(this); return false;"
+                data-amzer-id="{{amzer.numero}}""></a>
+            <div class=" modal-container">
+                <div class="modal-header">
+                    <a href="#" class="btn btn-clear float-right" aria-label="Close"
+                        onClick="closeModal(this); return false;" data-amzer-id="{{amzer.numero}}"></a>
+                    <div class="modal-title h5">{{amzer.sous_titre}}</div>
+                </div>
+                <div class="modal-body">
+                    <div class="content">
+                        {{amzer.content}}
+                    </div>
+                </div>
+        </div>
+    </div>
+    {%- endfor -%}
+    {% endif %}
+</div>
+</div>
